@@ -1,0 +1,76 @@
+/* La doc soy yo */
+/* Estilo de la barra de navegacion con el Fondo */
+.barranv button {
+    background-color: white; 
+    padding: 0; /* Quita el tamaño que trae por defecto del boton*/
+    border: none; /* Quita el borde del boton*/
+    font: inherit; 
+    margin-left: 50px; /* Agrega espaciado entre botones*/
+}
+
+/* Primer div Titulo */
+.titulo {
+    background-color: #F2F0EB; /* Definimos el color de fondo del Div*/
+    margin: 3px 50px -20px; /* Definimos espaciados del bloque*/
+    padding: 20px; /* Agregamos padding general al bloque*/
+    text-align: center; /*Centra el h1*/
+    
+}
+
+.titulo h1 {
+    margin-top: -15px; /*Espacio entre el inicio de pagina y titulo*/
+    margin-bottom: 15px; /* Espacio entre titulo y bloque */
+}
+
+/* Segundo Div para mover la foto */
+.cv {
+    display: flex; /*Establecemos la imagen flex para poder moverla dentro del contenedor*/
+    align-items: center;/* Centra verticalmente imagen y texto */
+    justify-content: center;/* Centra todo el bloque  (Imagen y el Texto) */
+    gap: 65px;/* Espacio entre la imagen y el texto */
+}
+
+.cv img {
+    width: 120px; /* Definimos el tamaño de la imagen*/
+    border-radius: 5px; /* Borde redondeado a la imagen*/
+}
+
+.cv h2 {
+    margin-bottom: 9px; /* Espacio (Abajo) entre titulo y bloque*/
+    margin-top: -25px; /* Quitamos espacio entre el titulo al nombre para acomodar el nombre a la par de la imagen*/
+}
+
+.cv p {
+    text-align: center; /*Texto centrado*/
+}
+
+/* Definimos estilos generales para la etiqueta de parrafo */
+p {
+    margin: 3px; /*Agregamos un margen entre lineas dedl parrafo*/
+    text-align: center; /* Su alineacion al centro*/
+    word-wrap: break-word; /*Esto hace que al final de cada linea automaticamente baje a la consiguiente linea del parrafo*/
+}
+
+/* Div's de Seccion */
+.seccion {
+    background-color: #F2F0EB; /* Definimos el color de fondo del Div*/
+    margin: 3px 50px -20px; /* Definimos espaciados del bloque*/
+    text-align: center; /* Definimos alineacion del bloque*/
+    align-items: center; /* Alineamos los items al centro dedl bloque*/
+    justify-content: center; /* Justificamos el contenido del bloque al centro*/
+    padding-bottom: 20px; /* Agregamos espaciado entre al final de cada bloque*/
+}
+
+.seccion h2 {
+    padding-top: 10px;/* Agregamos espaciado superior del titulo de cada bloque*/
+}
+
+.seccion ul {
+    display: inline-block; /* Hace que el bull de las listas este al lado del texto*/
+}
+
+/*Encapsulamos la tabla en un div adicional*/
+.tabla{
+    justify-items: center; /*Se mueve este contenedor al centro (El que incluye la tabla)*/
+    margin-bottom: 20px; /*Agrega margen del contenedor abajo de la tabla*/
+}
